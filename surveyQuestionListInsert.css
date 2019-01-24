@@ -1,0 +1,17 @@
+.Selected h4::before{
+
+    content: counter(section);
+}
+
+.leftRightLists{
+    background-color: rgba(128, 128, 128, 0.062);
+    height:100vh;
+}
+
+.leftDiv{
+    overflow-y:scroll;
+}
+
+ .rightDiv {      
+      overflow-y:scroll;
+ }
